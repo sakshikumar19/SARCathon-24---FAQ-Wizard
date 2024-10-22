@@ -134,7 +134,7 @@ Develop a module that can intelligently interpret user queries and return releva
 
 ## Deployed App
 
-Access the live deployment [here](https://faq-wizard.streamlit.app/).
+Access the live deployment [here](https://faq--wizard.streamlit.app/).
 
 ## Additional Features
 
