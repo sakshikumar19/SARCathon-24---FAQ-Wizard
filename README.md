@@ -1,4 +1,4 @@
-# Smart FAQ Module for SARAS AI Institute
+# FAQ Wizard: A Smart FAQ Module for SARAS AI Institute
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@
 
 ## Project Overview
 
-The Smart FAQ Module intelligently returns relevant FAQ entries based on user queries for the SARAS AI Institute website. Utilizing advanced NLP techniques and semantic search, it aims to enhance user experience by providing quick and precise answers to common questions, while being adaptable to various datasets.
+The FAQ Wizard intelligently returns relevant entries based on user queries for the SARAS AI Institute website. Utilizing advanced NLP techniques like Retrieval Augmented Generation (RAG) and semantic search, it aims to enhance user experience by providing quick and precise answers to common questions, while being adaptable to various datasets.
 
 ## Problem Statement
 
@@ -139,7 +139,7 @@ Access the live deployment [here](https://faq-wizard.streamlit.app/).
 ## Additional Features
 
 - **Video Demonstration:**
-  - [Watch Video Demonstration](assets/demo.mp4) demonstrates the working of the module.
+  - [Watch the demonstration here](https://drive.google.com/file/d/145NhAc8m-oyBF9zYah1osREC3ldlrJbM/view?usp=drivesdk).
 - **Semantic Space Illustration:**
   - ![Semantic Space](assets/semantic_space.PNG) visualizes how embeddings represent the FAQ data and queries in a lower-dimensional space.
 
