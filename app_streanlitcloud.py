@@ -88,10 +88,11 @@ if prompt := st.chat_input("Type your question here"):
         response = generate_answer_with_llm(prompt)
         st.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
-
-    # Generate new suggestions based on the user input
+    
+    # Generate new suggestions
     st.session_state.current_suggestions = get_suggestions(prompt)
     st.session_state.show_suggestions = True
+    st.rerun()
 
 # Sidebar for suggestions
 with st.sidebar:
@@ -109,4 +110,4 @@ with st.sidebar:
                     st.session_state.messages.append({"role": "assistant", "content": response})
                 # Generate new suggestions based on the selected suggestion
                 st.session_state.current_suggestions = get_suggestions(suggestion)
-                st.session_state.show_suggestions = True
+                st.rerun()
