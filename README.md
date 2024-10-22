@@ -1,7 +1,5 @@
 # Smart FAQ Module for SARAS AI Institute
 
-![FAQ Wizard](https://faq-wizard.streamlit.app/static/media/logo.7e3a0da7.svg)
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -141,9 +139,9 @@ Access the live deployment [here](https://faq-wizard.streamlit.app/).
 ## Additional Features
 
 - **Video Demonstration:**
-  - [demo.mp4](assets/demo.mp4) demonstrates the working of the module.
+  - [Watch Video Demonstration](assets/demo.mp4) demonstrates the working of the module.
 - **Semantic Space Illustration:**
-  - ![Semantic Space](assets/semantic_space.png) visualizes how embeddings represent the FAQ data and queries in a lower-dimensional space.
+  - ![Semantic Space](assets/semantic_space.PNG) visualizes how embeddings represent the FAQ data and queries in a lower-dimensional space.
 
 For testing with different datasets, modify `faqs.json` and run `rag.ipynb` to regenerate the FAISS index and embeddings (`documents.pkl`). This makes the project highly scalable and adaptable.
 
